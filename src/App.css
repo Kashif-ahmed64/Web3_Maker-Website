@@ -1,0 +1,94 @@
+.Navbar-title {
+  text-decoration: none;
+}
+
+.Navbar-element {
+  text-decoration: none !important;
+  color: grey !important;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.Navbar-element :after,
+.Navbar-element :hover,
+.Navbar-element :active {
+  color: white !important;
+}
+
+.Navbar-element h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.herosection {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.herosection h1 {
+  /* width: 70%; */
+  font-size: 60px;
+}
+
+.Section2 {
+  background-color: white !important;
+  margin-top: 3rem;
+  padding: 1rem 10rem;
+}
+
+.Section2 h2 {
+  font-size: 40px;
+}
+
+.Section2 p {
+  color: grey;
+}
+
+.start-btn {
+  font-size: 12px !important;
+  width: 10rem;
+  background-color: rgb(111, 52, 142) !important;
+  border: transparent !important;
+  transition: transform 0.3s ease-in-out;
+}
+
+.start-btn:hover {
+  transform: scale(1.1);
+}
+
+.future {
+  background-color: #22212e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.future h2 {
+  font-size: 40px;
+}
+
+.future h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 2rem;
+  color: white;
+}
+.copyright {
+  font-size: 15px;
+  font-weight: 200;
+  color: grey;
+}
